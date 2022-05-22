@@ -18,7 +18,7 @@
             <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
-            <th scope="col">Actions</th>
+            <th scope="col" colspan="3" align="center">Actions</th>
           </tr>
           </thead>
           <tbody>
@@ -28,8 +28,11 @@
             <td>{{c.email}}</td>
             <td>
               <button (click)="handelDeleteCustomer(c)" class="btn btn-danger">
-                <i class="bi bi-trash"></i>
+                <i class="bi bi-trash"></i> Delete
               </button>
+            </td>
+            <td>
+              <button (click)="handelCustomerAccounts(c)" class="btn btn-dark">Operations</button>
             </td>
           </tr>
           </tbody>
