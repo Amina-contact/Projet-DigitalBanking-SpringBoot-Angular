@@ -14,3 +14,4 @@ L'application se compose des couches suivantes :
 - La couche Web (Rest Controllers)
 - Couche sécurité (Spring Security avec JWT)
 # Rapport Projet-DigitalBanking
+[Rapport_Digital_Banking.pdf](https://github.com/Amina-contact/Projet-DigitalBanking-SpringBoot-Angular/files/9801443/Rapport_Digital_Banking.pdf)
